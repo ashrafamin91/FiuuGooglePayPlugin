@@ -2,12 +2,12 @@
  # license: Copyright © 2011-2023 Razer Merchant Services Sdn Bhd. All Rights Reserved. 
  -->
 
-![banner RMSxGooglePay](https://user-images.githubusercontent.com/17770615/199203191-891462c9-05b3-4ad5-b2a9-eaa67d873698.png)
+![banner Fiuu x GooglePay](https://github.com/FiuuPayment/FiuuGooglePayPlugin/assets/5105608/1f273ad1-475b-473d-bca3-8a5d2c1dffa4)
 
 
-# [Mobile Plugin] - RazerMS Google Pay Plugin
+# [Mobile Plugin] - Fiuu Google Pay Plugin
 
-This is the complete and functional Razer Merchant Services Google Pay Plugin payment module that is ready to be implemented into Android Studio application project through Maven framework.
+This is the complete and functional Fiuu Google Pay Plugin payment module that is ready to be implemented into Android Studio application project through Maven framework.
 
 ## Recommended configurations
 
@@ -21,7 +21,7 @@ This is the complete and functional Razer Merchant Services Google Pay Plugin pa
 
 ### Maven
 
-Maven primarily aids in the download of dependencies, which are libraries or JAR files, for Java-based applications. For usage and installation instructions, visit their website. To integrate RazerMS Google Pay Plugin into your Android Studio project using CocoaPods, specify it in your file:
+Maven primarily aids in the download of dependencies, which are libraries or JAR files, for Java-based applications. For usage and installation instructions, visit their website. To integrate Fiuu Google Pay Plugin into your Android Studio project using CocoaPods, specify it in your file:
 
     In file settings.gradle
 
@@ -135,29 +135,28 @@ Maven primarily aids in the download of dependencies, which are libraries or JAR
     
     Parameter and meaning:
     
-    "Fail to detokenize Google Pay Token given" - Error starting a payment process due to several possible reasons, please contact Razer Merchant Services support should the error persists.
+    "Fail to detokenize Google Pay Token given" - Error starting a payment process due to several possible reasons, please contact Fiuu support should the error persists.
     1) Misconfigure GooglePay setup
     2) API credentials (username, password, merchant id, verify key)
-    3) Razer Merchant Services server offline.
+    3) Fiuu server offline.
 
 ## Resources
-
-- GitHub:     https://github.com/RazerMS
-- Website:    https://merchant.razer.com/
-- Twitter:    https://twitter.com/Razer_MS
-- YouTube:    https://www.youtube.com/c/RazerMerchantServices
-- Facebook:   https://www.facebook.com/RazerMerchantServices/
-- Instagram:  https://www.instagram.com/RazerMerchantServices/
+- GitHub:     https://github.com/FiuuPayment
+- Website:    https://fiuu.com/
+- Twitter:    https://twitter.com/FiuuPayment
+- YouTube:    https://www.youtube.com/c/FiuuPayment
+- Facebook:   https://www.facebook.com/FiuuPayment/
+- Instagram:  https://www.instagram.com/FiuuPayment/
 
 
 ## Support
 
-Submit issue to this repository or email to our support-sa@razer.com
+Submit issue to this repository or email to our support@fiuu.com
 
-Merchant Technical Support / Customer Care : suppor-sa@razer.com<br>
-Sales/Reseller Enquiry : sales-sa@razer<br>
-Marketing Campaign : marketing-sa@razer<br>
-Channel/Partner Enquiry : channel-sa@razer<br>
-Media Contact : media-sa@razer.com<br>
-R&D and Tech-related Suggestion : technical-sa@razer.com<br>
-Abuse Reporting : abuse-sa@razer.com
+Merchant Technical Support / Customer Care : support@fiuu.com<br>
+Sales/Reseller Enquiry : sales@fiuu.com<br>
+Marketing Campaign : marketing@fiuu.com<br>
+Channel/Partner Enquiry : channel@fiuu.com<br>
+Media Contact : media@fiuu.com<br>
+R&D and Tech-related Suggestion : technical@fiuu.com<br>
+Abuse Reporting : abuse@fiuu.com
