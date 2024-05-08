@@ -1,26 +1,36 @@
 plugins {
-    id 'com.android.library'
-    id 'maven-publish'
+    id "com.android.application"
 }
 
 android {
-    compileSdk 33
+    namespace "rms.library.googlepay"
+    compileSdkVersion 33
 
     defaultConfig {
+        applicationId "rms.library.googlepay"
+
+        /* Google Payment API is not supported in SDK versions lower than 19. This example requires
+        this version due to use of newer constructs like Optional. */
         minSdk 21
         targetSdk 33
-        versionCode 2
-        versionName "1.0.3"
+        versionCode 1
+        versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            shrinkResources true
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    viewBinding {
+        enabled = true
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -36,20 +46,6 @@ dependencies {
     implementation "com.google.android.gms:play-services-pay:16.1.0"
     implementation "com.google.android.gms:play-services-wallet:19.2.0"
     implementation 'org.apache.commons:commons-lang3:3.4'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-}
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId ='rms.mobile'
-                artifactId = 'mobile_google_pay'
-                version = '1.0.3'
-            }
-        }
-    }
+    implementation 'com.github.RazerMS:RazerMSGooglePayPlugin:1.0.3'
 }
