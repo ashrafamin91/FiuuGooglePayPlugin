@@ -8,7 +8,7 @@
 # [Mobile Plugin] - Fiuu Google Pay Plugin
 
 This is the complete and functional Fiuu Google Pay Plugin payment module that is ready to be implemented into Android Studio application project through Maven framework.
-Refer here for full integration guide : [Mobile-XDK-Fiuu_Android_Library](https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Android_Library?tab=readme-ov-file#google-pay)
+Refer here for full integration guidance : [Mobile-XDK-Fiuu_Android_Library](https://github.com/FiuuPayment/Mobile-XDK-Fiuu_Android_Library?tab=readme-ov-file#google-pay)
 
 ## Resources
 - GitHub:     https://github.com/FiuuPayment
